@@ -3,7 +3,7 @@ SUPPORT ~https://www.gibberlings3.net/forum/61-the-gibberlings-three-anniversary
 
 VERSION ~v13~
 
-README ~g3anniversary/readme-g3anniversary.html~
+README ~g3anniversary/%LANGUAGE%_readme-g3anniversary.pdf~ ~g3anniversary/readme-g3anniversary.html~
 
 ALWAYS
 
@@ -46,16 +46,16 @@ LANGUAGE ~English~
          ~english~ 
          ~g3anniversary/lang/english/game.tra~
          ~g3anniversary/lang/english/weidu.tra~
-LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ 
-         ~polish~ 
-         ~g3anniversary/lang/polish/game.tra~
-         ~g3anniversary/lang/polish/weidu.tra~
 LANGUAGE ~Russian~ 
          ~russian~ 
          ~g3anniversary/lang/english/game.tra~
          ~g3anniversary/lang/english/weidu.tra~
          ~g3anniversary/lang/russian/game.tra~
          ~g3anniversary/lang/russian/weidu.tra~
+LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ 
+         ~polish~ 
+         ~g3anniversary/lang/polish/game.tra~
+         ~g3anniversary/lang/polish/weidu.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
