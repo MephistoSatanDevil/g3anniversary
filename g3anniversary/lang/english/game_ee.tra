@@ -1,26 +1,120 @@
-// this file contains all item descriptions, minus their usable/unusable blocks
-// translators can probably just copy over stuff from the main setup.tra and delete relevant bits
+/*
+this file is encoded as UTF-8 and is not converted, as its used exclusively for EE games
 
-@182 = ~Mage Boots of Self Preservation
+v14: added a lot more strings for Weight lines on miscellaneous items
 
-In ages past there lived a halfling named Worrelyn Nimbletoes, and like many of her kind she was known to be a little dishonest with the possessions of others. While not bad at her chosen profession, she was somewhat skittish and prone to run away at the first sign of trouble. This caution served her well, as by the time any real trouble arrived at the scene of the crime she was safely back at home in the warm embrace of a bowl of stew. Against a certain old wizard, though, not even her nimble feet could save her from an unfortunate fate.
+translators: strings here override strings in game.tra for BG2ee/EET installations. This is done
+primarily for item restrictions to comply with the EE's formatting changes. Generally this means
+removal of the 'Usable/Unusable By' blocks for items and adding a Weight line to miscellaneous
+items. There are other formatting changes made for consistency. 
+
+This file is *independent* of game.tra. If you don't want or need to override a string in game.tra 
+for your language, then you don't need to include it here--the mod will install fine with a blank 
+game_ee.tra. Conversely, you can add additional strings which may need to change for your language 
+that aren't in the English game_ee.tra.
+*/
+
+@122  = ~When opened, the aroma from this clear, potent beverage is enough to make flowers wilt. On the back is a small warning: 'The brewer of this concoction disavows any responsibility when imbibed. Drink at your own risk.'
+
+STATISTICS:
+
+Weight: 1~
+@127  = ~This broad, flat-necked flask has seen extensive use. Some misshapen but angry beast is engraved on the shiny surface. Its leather casing is decorated with pebbles, feathers and the like. It was evidently designed to carry alcoholic beverages on the person. Wine with a fruity smell is twirling inside invitingly, but the sickly greenish shade that the bottle has taken over the course of the last five minutes should warn anyone knowledgeable in the ways of nature against drinking of it, for it is a sure sign that the beverage is impregnated with the deadly Chultan spice called Strangler.
+
+STATISTICS:
+
+Weight: 1~
+@131  = ~Legend tells how Thylamon Malocholis, an inordinately wealthy landowner from the North, once challenged all the peasants in his town to a contest. The challenge was to brew an ale of a quality that equalled the worth all of the gold coins in his storage cellar, and the prize was that the brewer would be allowed to take home from the cellar, all the gold coins that he or she could carry.
+
+Dozens of doughty peasants immediately set to work, brewing strange and explosive concoctions late into the evenings, yet none were fit for Malocholis' tastebuds. Weeks of unsuccessful brewing passed, until one day, a wholly unremarkable dwarf stepped into Malocholis' presence. Bowing low, the dwarf announced that he knew the secret to the perfect brew, and would present it before Malocholis in three days. The dwarf, by the name of Rumblebum Hammerpicanax, bowed once again and left.
+
+True to his word, in three days a paler and thinner Hammerpicanax returned, and placed before Malocholis a single cup of frothing ale. Malocholis took a sip and immediately declared Hammerpicanax the winner of the contest, as indeed, here was an ale worth all the gold coins that were in his storage cellar. The dwarf was then shown to the cellar to claim his prize, where he discovered that Malocholis generally dealt with gems rather than coin, and therefore the worth of his three days of labor was equal to exactly 14 gold pieces. Later on, Malocholis discovered that a working set of kneecaps was worth far more than a nasty trick.
+
+The recipe for this fine ale has been lost to the ages and although many attempts have been made to reconstitute the exact taste, nobody has succeeded until now. A wandering alechemist would surely cut your throat to get his hands on this lucky brew.
+
+This would definitely qualify as something Drini has never had before.
+
+STATISTICS:
+
+Weight: 3~
+@137  = ~These beans rival any that have come from Kara-Tur. Fabled to have been grown by an old elven sorcerer, they are twice the size of a normal java bean and have a rich aroma. While they make an excellent cup of java, with enchantment by an elf, it is said these beans are part of a cure for over-celebration.
+
+STATISTICS:
+
+Weight: 0~
+@145  = ~This drink has a dark, murky color and faintly crackles with an electrical energy and has a fairly pleasing, eye-opening aroma. It is said this drink was made by an old elven sage looking for a way to cure her husband of over-celebration. The beans, used as the basis for the drink, were created by the elf herself, according to legend, and are rare and difficult to find. Only elves know the enchantment needed as the final ingredient.
+
+STATISTICS:
+
+Weight: 0~
+@150  = ~This bottle contains a measure of Dwarven Whiskey. Brewed by the Rockskull clan from mushrooms as well as wheat and other substances best left to the imagination, it is aged for centuries in huge stone vats. The Rockskulls know a batch is ready when the orc skull thrown into the vat has completely dissolved. Rare vintages like this one may be left for five skull's worth of time or more. Dwarves across Faerun praise Rockskull whiskey for its rich flavours, fiery aftertaste and fortifying effects. Most other races recommend Rockskull whiskey for its ability to start fires, dissolve paint and engender hangovers.
+
+STATISTICS:
+
+Weight: 1~
+@153  = ~This bottle contains the special oil that Cromwell the smith made for Robukin Rockskull. The odour of rancid grease emanates from the bottle and it feels both gritty and slippery in your hands. Perhaps its contents are best left unexplored.
+
+STATISTICS:
+
+Weight: 1~
+@170  = ~A long-lived spirit of mostly mysterious origin, this drink has made rare appearances throughout the Sword Coast and beyond. The story of its creation goes that a half-elf by the name of Dalin Winthraven devoted his life to perfecting a fiery spirit, hoping in doing so to raise the productivity of his small tavern and earn his fortune and name. He toiled for years in his little town, selling horrid failed concoctions to customers in such quantity that some were driven to bars much further away, but at least of tolerable stock. Dalin saw he was risking his business, and with each large and terrible batch more customers, but the elusive recipe had grown into an obsession. In the end only the most loyal - and trapped by circumstance and lack of the ability to leave the small town - of his customers remained. Then one day, the very day Dalin was forced to foreclose on his tavern, he took all of his resources, all the leftover stems, skins and pits from making the few generic drinks he did, and anything else he could find that could possibly be distilled, and threw it all into a final batch. The result, as fate would have it, was the greatest clear, dry and fiery spirit any of that town had ever encountered.
+
+Rejuvenated, the half-elf packed up his things, bottled every last drop of the spirit and headed into the brave unknown to sell his creation and start anew. As ill luck would have it, he was attacked by opportunistic bandits before he had even reached the first city, and all his precious brew stolen or lost in the raid. Dalin might have tried again, but it was not to be. Instead, he suffered a mysterious fate, wandering alone in the wilderness, broken and penniless.
+
+Being the only man to know the true secrets of his incredible drink, it was never recreated. It was, however, highly praised, and what little there was circulated throughout the realm, always causing a stir, valued more so for its rare nature.
+
+STATISTICS:
+
+Weight: 8~
+@174  = ~This large and well-polished oaken keg bears a metal plate with the name 'WILHEMUS'; obviously, Corradun and his keg have seen many good times together...
+
+Inside you can hear some good, strong ale sloshing about. Odd for a half-elf like Corradun to drink ale, but then again you suppose sailors can be odd types. If Drini didn't urgently need it as a spell component, you'd be pretty tempted to have a swig or three yourself.
+
+STATISTICS:
+
+Weight: 20~
+@179  =~This broad, flat-necked flask has seen extensive use. Some misshapen but angry beast is engraved on the shiny surface. Its leather casing is decorated with pebbles, feathers and the like. It was evidently designed to carry alcoholic beverages on the person.
+
+The Chultan Strangler spice has apparently been neutralized by Sanderick the alchemist.
+
+STATISTICS:
+
+Weight: 1~
+
+@182 = ~In ages past there lived a halfling named Worrelyn Nimbletoes, and like many of her kind she was known to be a little dishonest with the possessions of others. While not bad at her chosen profession, she was somewhat skittish and prone to run away at the first sign of trouble. This caution served her well, as by the time any real trouble arrived at the scene of the crime she was safely back at home in the warm embrace of a bowl of stew. Against a certain old wizard, though, not even her nimble feet could save her from an unfortunate fate.
 
 Dramauth the Deranged, the true identity of one of the feared cabal known as the Gibbering Twelve, was an intensely paranoid mage, and it was Worrelyn's misfortune to one day pay him a 'visit' during the night. She navigated past the many traps and wards, and escaped with several minor artifacts. As her own pair were slightly worse for wear, she picked up a pair of the wizard's boots she found in the hallway on her way out.
 
 There was no way she could have known that Dramauth had trapped all his possessions to guard against such theft. When she put the shoes on her soul was sucked into them and her body vanished, never to be seen again. Dramauth, in the morning, merely had to divine the location of his missing belongings and go and pick them up. Something of the halfling survives in those old boots to this day, manifesting itself in increasing the wearer's pace when confronted by danger.
 
-STATISTICS
+STATISTICS:
 
-+50% movement rate for one round when attacked
-~
-@190 = ~Tome of Arcane Recall
+Equipped abilities:
+– +50% movement rate for one round when attacked
 
-This creaky, leather-bound tome was once the property of Jeremiah, a mage of minor repute from Waterdeep. Jeremiah crafted this tome for one of his less adept puils, hoping that it would aid the errant apprentice's woeful memory. While well-intenioned, the tome saw little use after Jeremiah's student had an unfortunate mishap and left his apprenticeship soon after.
+Weight: 3~
+@184  = ~This stone, deep purple in hue, allows the bearer to see into the shadows of darkness.
 
 STATISTICS:
 
-Special ability: 
-  One time, permanent bonus of +10 lore upon its first use
-  Once per day, the tome enables the caster to bring back into memory two spells of fifth level or below that have been previously cast
+Equipped abilities:
+– Infravision up to 60 ft.
 
-~
+Weight: 2~
+@186  = ~This stone is cool to the touch and radiates energy.
+
+STATISTICS:
+
+Equipped abilities:
+– Cold Resistance: +10%
+
+Weight: 2~
+@190 = ~This creaky, leather-bound tome was once the property of Jeremiah, a mage of minor repute from Waterdeep. Jeremiah crafted this tome for one of his less adept puils, hoping that it would aid the errant apprentice's woeful memory. While well-intenioned, the tome saw little use after Jeremiah's student had an unfortunate mishap and left his apprenticeship soon after.
+
+STATISTICS:
+
+Charge abilities:
+– Once per day, the tome enables the caster to bring back into memory two spells of fifth level or below that have been previously cast
+– One time, permanent bonus of +10 lore upon its first use
+
+Weight: 25~
